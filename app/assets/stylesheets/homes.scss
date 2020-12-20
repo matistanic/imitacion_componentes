@@ -1,0 +1,77 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#alert-dismissing {
+    color: #856404;
+    background-color: #fff3dc;
+    border-color: #ffeeba;
+    margin: 0px 0px 16px;
+    padding: 16px 64px 12px 20px;
+}
+
+#hide {
+    margin-right: 0;
+    float: right;
+    color: inherit;
+    border: none;
+    background-color: #fff3cd;
+    margin-top: -5px;
+}
+
+#inner-span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#alert-collapse {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border: 0;
+}
+
+#inner-text {
+    border: 1px solid grey;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph {
+    display: none;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+
+.accordion-button {
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 123, 255);
+    border-radius: 0.25rem;
+    margin: 0;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 0 solid grey;
+    border-left: 1px solid grey;
+}
+
+.accordion-button:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+.final {
+    border-bottom: 1px solid grey
+}
